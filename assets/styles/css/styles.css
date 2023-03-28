@@ -949,6 +949,7 @@ html {
 body {
   background-color: #000000;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Estilos para el Scroll */
@@ -1240,6 +1241,12 @@ ul {
 @media (min-width: 1400px) {
   #lista-articulos .row .first {
     margin-left: 2rem;
+  }
+  .barra .four {
+    width: 30rem;
+  }
+  .icono3 {
+    margin: 0;
   }
 }
 @media (min-width: 550px) {
