@@ -74,17 +74,16 @@
               <h2>Venta de Motos Clasicas</h2>
               <p>Precios Insuperables</p>
               <form action="#" id="busqueda" method="post" class="formulario">
+                <!-- <select name="" id="lista-articulos_buscador">
+                  <option value="Harley Davidson">Harley Davidson</option>
+                  <option value="Junak">Junak</option>
+                </select> -->
                 <input
                   class="u-full-width"
                   type="text"
-                  placeholder="¿Que quieres comprar?"
+                  placeholder="Buscar Articulo ..."
                   id="buscador"
-                />
-                <input
-                  type="submit"
-                  id="submit-buscador"
-                  class="submit-buscador"
-                />
+                />                
                 <i class="bx bx-search-alt-2 bx-flashing-hover buscar"></i>
               </form>
             </div>
@@ -120,6 +119,7 @@
 
     <div id="lista-articulos" class="container">
       <h1 id="encabezado" class="encabezado">Las Mejores Motos Clasicas</h1>
+      <div id="error_buscador"><img src="./assets/img/error/Error404.png" alt="imagen error 404"></div>
 
       <div class="row">
         <div class="four columns first">
@@ -466,7 +466,6 @@
           <!--.card-->
         </div>
       </div>
-      
     </div>
 
     <footer id="footer" class="footer">
@@ -499,7 +498,8 @@
         >
       </div>
     </footer>
-
+    <!-- Link JavaScript -->
     <script src="./assets/js/carrito-compra.js"></script>
+    <script src="./assets/js/buscar-articulo.js"></script>
   </body>
 </html>

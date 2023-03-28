@@ -104,6 +104,31 @@
   margin: 30px 0;
 }
 
+#error_buscador {
+  display: none;
+}
+
+@media (min-width: 425px) {
+  #error_buscador img {
+    width: 30rem;
+    margin: 5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #error_buscador img {
+    width: 50rem;
+    margin: 5rem 0 3rem 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #error_buscador img {
+    width: 60rem;
+    margin: 5rem 0 3rem 15rem;
+  }
+}
+
 .encabezado {
   color: $color-texto;
   font-weight: 600;
@@ -122,7 +147,6 @@
 .card:hover {
   box-shadow: 1px 1px 5px $color-contraste;
 }
-
 
 @media (min-width: 768px) {
   #lista-articulos .row {
@@ -155,7 +179,7 @@
   }
 
   .icono3 {
-    margin: 0 ;
+    margin: 0;
   }
 }
 
