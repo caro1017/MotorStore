@@ -1,0 +1,40 @@
+@import "variables";
+
+.footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  background: $color-contraste; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    $color-principal,
+    $color-contraste
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    $color-principal,
+    $color-contraste
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer .menu a {
+  color: $color-texto;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer .menu a:hover {
+  text-decoration: underline;
+}
+
+/* Autor */
+.autor {
+  text-align: center;
+  color: $color-texto;
+  margin: 1rem 0 0 0;
+}
+
+.autor a {
+  text-decoration: none;
+  margin: 5rem;
+}

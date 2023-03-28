@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo/logo.png"
+      type="image/x-icon"
+    />
+    <!-- Link fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Iconos -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link Estilos -->
+    <link rel="stylesheet" href="./assets/styles/css/styles.css" />
+
+    <title>MotorStore</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="four columns logoc">
+            <img src="./assets/img/logo/Logo.png" id="logo" />
+          </div>
+          <div class="two columns u-pull-right">
+            <ul>
+              <li class="submenu">
+                <i class="bx bx-cart-alt bx-tada-hover">
+                  <span id="img-carrito">0</span></i
+                >
+                <div id="carrito">
+                  <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                      <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                  <p class="text_center" id="precioTotal"></p>
+
+                  <a href="#" id="vaciar-carrito" class="button u-full-width"
+                    >Vaciar Carrito</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="purch">
+      <div class="container">
+        <div class="row">
+          <div class="six columns">
+            <div class="contenido-purch">
+              <h2>Venta de Motos Clasicas</h2>
+              <p>Precios Insuperables</p>
+              <form action="#" id="busqueda" method="post" class="formulario">
+                <input
+                  class="u-full-width"
+                  type="text"
+                  placeholder="¿Que quieres comprar?"
+                  id="buscador"
+                />
+                <input
+                  type="submit"
+                  id="submit-buscador"
+                  class="submit-buscador"
+                />
+                <i class="bx bx-search-alt-2 bx-flashing-hover buscar"></i>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="barra">
+      <div class="container">
+        <div class="row">
+          <div class="four columns icono icono1">
+            <p>
+              Mas de 50 referencias <br />
+              En Motos clasicas y customizadas
+            </p>
+          </div>
+          <div class="four columns icono icono2">
+            <p>
+              Mantente actualizado <br />
+              Las mejores marcas a tu alcance.
+            </p>
+          </div>
+          <div class="four columns icono icono3">
+            <p>
+              Pasion por el servicio <br />
+              Te asesoramos en tu compra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="lista-articulos" class="container">
+      <h1 id="encabezado" class="encabezado">Las Mejores Motos Clasicas</h1>
+
+      <div class="row">
+        <div class="four columns first">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto3 .jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Softail Custom Fxstc</h4>
+              <p>Harley Davidson</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $75.000.000 <span class="u-pull-right">$70.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="3"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto3.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Iron 883 Negra 2018</h4>
+              <p>Harley Davidson</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $65.900.000<span class="u-pull-right">$55.900.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="4"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto4.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>V Rod Aniversario</h4>
+              <p>Harley Davidson</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $75.500.000<span class="u-pull-right">$65.500.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="5"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto5.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>JUNAK 121 125cc</h4>
+              <p>Junak</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $55.555.000 <span class="u-pull-right">$50.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="6"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto6.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Cross Country</h4>
+              <p>Harley Davidson</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $90.000.000 <span class="u-pull-right">$86.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="7"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto7.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Clasic 350 2019</h4>
+              <p>Royal Enfield</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $15.500.000 <span class="u-pull-right">$10.500.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="8"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto8.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Piaggio Vespa 150 Italiana</h4>
+              <p>Vespa</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $6.500.000 <span class="u-pull-right">$5.500.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="9"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto9.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Street Glide</h4>
+              <p>Harley Davidson</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $140.000.000 <span class="u-pull-right">$137.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="10"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto10.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Sporster -883</h4>
+              <p>Harley Davidson</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $60.000.000 <span class="u-pull-right">$56.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="11"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto11.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Tiger 800xr 2016</h4>
+              <p>Triumph</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $54.000.000 <span class="u-pull-right">$44.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="12"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto12.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Scrambler 800 Dar</h4>
+              <p>Ducati</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $50.500.000 <span class="u-pull-right">$43.500.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="13"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto13.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Bmw R18</h4>
+              <p>Bmw</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $120.000.000 <span class="u-pull-right">$112.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="14"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto14.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Classic 350</h4>
+              <p>Royal Enfield</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $15.980.000 <span class="u-pull-right">$10.980.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="15"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto15.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Classic 350</h4>
+              <p>Royal Enfield</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $15.300.000 <span class="u-pull-right">$12.300.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="16"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./assets/img/productos/moto16.jpg"
+              class="imagenMoto u-full-width"
+            />
+            <div class="info-card">
+              <h4>Cb 750 - 1981</h4>
+              <p>Honda</p>
+              <img src="./assets/img/iconos/estrellas.png" />
+              <p class="precio">
+                $30.000.000<span class="u-pull-right">$26.000.000</span>
+              </p>
+              <a
+                href="#"
+                class="u-full-width button input agregar-carrito"
+                data-id="17"
+                >Agregar Al Carrito</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      
+    </div>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <nav id="principal" class="menu">
+              <a class="enlace" href="#">Para tu Negocio</a>
+              <a class="enlace" href="#">Club Moteros</a>
+              <a class="enlace" href="#">Servicios de Aprendizaje</a>
+              <a class="enlace" href="#">Talleres Mecanicos</a>
+            </nav>
+          </div>
+          <div class="four columns">
+            <nav id="secundaria" class="menu">
+              <a class="enlace" href="#">¿Quienes Somos?</a>
+              <a class="enlace" href="#">Empleo</a>
+              <a class="enlace" href="#">Blog</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="autor">
+        <a
+          href="https://www.linkedin.com/in/carolina-uribe-botero-7b0839195/"
+          target="_blank"
+          ><p class="autor">
+            Copyright &copy; 2022 by Carolina Uribe Botero
+          </p></a
+        >
+      </div>
+    </footer>
+
+    <script src="./assets/js/carrito-compra.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+@import "variables";
+
+.logoc {
+  max-height: 2rem;
+}
+
+#logo {
+  max-height: 10rem;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  padding: 20px 0 0 0;
+  text-align: center;
+  background-color: $color-principal;
+}
+
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu i {
+  cursor: pointer;
+  color: $color-contraste;
+  font-size: 24px;
+}
+
+.submenu i span {
+  position: absolute;
+  font-size: 13px;
+  background-color: #520407;
+  margin: -4px -4px;
+  border-radius: 50%;
+  padding: 2px;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 450px){
+  .submenu{
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .submenu i {
+    margin-top: 35px;
+  }
+}
+
+.submenu #carrito {
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+
+  top: 100%;
+  z-index: 1;
+  color: $color-texto;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: #04040448;
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  margin: 0 -20px 20px 0;
+  min-height: 400px;
+  min-width: 0;
+  width: 38rem;
+  border-radius: 15px;
+}
+
+#lista-carrito {
+  padding: 5rem;
+}
+
+#lista-carrito th {
+  width: 8px;
+  font-weight: 100;
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+#lista-carrito tbody tr td {
+  font-size: 10px;
+  padding: 5px;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: $color-contraste;
+  text-align: center;
+  border-radius: 10px;
+  color: $color-texto;
+}
+
+.borrar-articulo {
+  border: 2px solid $color-contraste;
+  border-radius: 50%;
+  padding: 4px 8px;
+  text-decoration: none;
+  color: $color-contraste;
+  font-weight: bold;
+  margin: 0 0 0 -40px;
+}
+
+.borrar-articulo:hover {
+  transition: 1s;
+  color: $color-principal;
+  background-color: $color-contraste;
+}

@@ -1,0 +1,41 @@
+/**
+* Customizacion general de los estilos
+*/
+
+@import "variables";
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: $color-principal;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para el Scroll */
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #520407;
+    border-radius: 50px;
+}
+  
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #a4161a;
+    opacity: 0.6;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
