@@ -74,17 +74,20 @@
               <h2>Venta de Motos Clasicas</h2>
               <p>Precios Insuperables</p>
               <form action="#" id="busqueda" method="post" class="formulario">
-                <!-- <select name="" id="lista-articulos_buscador">
+                <select id="buscador">
+                  <option value="">Buscar Articulo ...</option>
                   <option value="Harley Davidson">Harley Davidson</option>
                   <option value="Junak">Junak</option>
-                </select> -->
-                <input
-                  class="u-full-width"
-                  type="text"
-                  placeholder="Buscar Articulo ..."
-                  id="buscador"
-                />                
-                <i class="bx bx-search-alt-2 bx-flashing-hover buscar"></i>
+                  <option value="Royal Enfield">Royal Enfield</option>
+                  <option value="Vespa">Vespa</option>
+                  <option value="Triumph">Triumph</option>
+                  <option value="Ducati">Ducati</option>
+                  <option value="Bmw">Bmw</option>
+                  <option value="Honda">Honda</option>
+                </select>
+                <button id="buscar-btn">
+                  <i class="bx bx-search-alt-2 bx-flashing buscar"></i>
+                </button>
               </form>
             </div>
           </div>
@@ -119,7 +122,9 @@
 
     <div id="lista-articulos" class="container">
       <h1 id="encabezado" class="encabezado">Las Mejores Motos Clasicas</h1>
-      <div id="error_buscador"><img src="./assets/img/error/Error404.png" alt="imagen error 404"></div>
+      <div id="error_buscador">
+        <img src="./assets/img/error/Error404.png" alt="imagen error 404" />
+      </div>
 
       <div class="row">
         <div class="four columns first">

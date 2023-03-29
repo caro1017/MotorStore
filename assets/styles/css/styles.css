@@ -341,24 +341,6 @@ input[type=button].button-primary:focus {
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type=email],
-input[type=number],
-input[type=search],
-input[type=text],
-input[type=tel],
-input[type=url],
-input[type=password],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #d1d1d1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box;
-}
-
 /* Removes awkward default styles on some inputs for iOS */
 input[type=email],
 input[type=number],
@@ -377,19 +359,6 @@ textarea {
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px;
-}
-
-input[type=email]:focus,
-input[type=number]:focus,
-input[type=search]:focus,
-input[type=text]:focus,
-input[type=tel]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33c3f0;
-  outline: 0;
 }
 
 label,
@@ -485,13 +454,6 @@ td:last-child {
 button,
 .button {
   margin-bottom: 1rem;
-}
-
-input,
-textarea,
-select,
-fieldset {
-  margin-bottom: 1.5rem;
 }
 
 pre,
@@ -780,16 +742,6 @@ samp {
    * 2. Correct font properties not being inherited.
    * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
    */
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  margin: 0; /* 3 */
-}
-
 /**
    * Address `overflow` set to `hidden` in IE 8/9/10/11.
    */
@@ -803,8 +755,7 @@ button {
    * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
    * Correct `select` style inheritance in Firefox.
    */
-button,
-select {
+button {
   text-transform: none;
 }
 
@@ -1128,11 +1079,6 @@ ul {
   box-shadow: 1px 1px 3px #F5F3F4;
 }
 
-.contenido-purch form #buscador {
-  height: 50px;
-  margin-bottom: 0;
-}
-
 .contenido-purch form .submit-buscador {
   position: absolute;
   right: 0;
@@ -1148,10 +1094,38 @@ ul {
 }
 
 .contenido-purch form .buscar {
-  position: absolute;
-  margin: 10px -40px;
   color: #BA181b;
-  font-size: 30px;
+}
+
+.contenido-purch form #buscar-btn {
+  position: absolute;
+  border: none;
+  font-size: 3rem;
+}
+
+@media (min-width: 425px) {
+  .contenido-purch form #buscar-btn {
+    margin: 0.8rem -10rem 0;
+  }
+}
+@media (min-width: 768px) {
+  .contenido-purch form #buscar-btn {
+    margin: -3.5rem 25rem 0;
+  }
+}
+@media (min-width: 1400px) {
+  .contenido-purch form #buscar-btn {
+    margin: 0.8rem -8rem 0;
+  }
+}
+#buscador {
+  all: unset;
+  width: 30rem;
+  border-radius: 20px;
+  color: grey;
+  padding: 10px;
+  background-color: #000000;
+  cursor: pointer;
 }
 
 .barra {
