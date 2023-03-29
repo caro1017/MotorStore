@@ -36,7 +36,7 @@ Este proyecto cumple los siqueintes requerimientos:
 
 ## Prototipado ⌨️
 
-<img width="600" alt="prototipo" src="https://user-images.githubusercontent.com/104663024/228632552-90f755d9-5c63-4327-b887-19bdbb46c7ac.png">
+<img width="900" alt="prototipo" src="https://user-images.githubusercontent.com/104663024/228632552-90f755d9-5c63-4327-b887-19bdbb46c7ac.png">
 
 
 ## Autor ✒️
