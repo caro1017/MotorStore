@@ -1,10 +1,9 @@
 /* Variables Selector */
 const buscador = document.querySelector("#buscador");
-const buscarBtn = document.getElementById("buscar-btn");
 const cards = document.querySelectorAll(".card");
 const errorBuscador = document.querySelector("#error_buscador");
 
-buscarBtn.addEventListener("click", (e) => {
+buscador.addEventListener("click", (e) => {
   e.preventDefault(); // previene que se recarge la pagina
   const valorBusqueda = buscador.value.toLowerCase();
 
