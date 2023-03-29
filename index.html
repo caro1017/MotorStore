@@ -66,409 +66,413 @@
       </div>
     </header>
 
-    <div id="purch">
-      <div class="container">
+    <main>
+      <!-- Contenedor formulario buscar articulo -->
+      <div id="purch">
+        <div class="container">
+          <div class="row">
+            <div class="six columns">
+              <div class="contenido-purch">
+                <h2>Venta de Motos Clasicas</h2>
+                <p>Precios Insuperables</p>
+                <form action="#" id="busqueda" method="post" class="formulario">
+                  <select id="buscador">
+                    <option value="">Buscar Articulo ...</option>
+                    <option value="Harley Davidson">Harley Davidson</option>
+                    <option value="Junak">Junak</option>
+                    <option value="Royal Enfield">Royal Enfield</option>
+                    <option value="Vespa">Vespa</option>
+                    <option value="Triumph">Triumph</option>
+                    <option value="Ducati">Ducati</option>
+                    <option value="Bmw">Bmw</option>
+                    <option value="Honda">Honda</option>
+                  </select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contenedor banner -->
+      <div class="barra">
+        <div class="container">
+          <div class="row">
+            <div class="four columns icono icono1">
+              <p>
+                Mas de 50 referencias <br />
+                En Motos clasicas y customizadas
+              </p>
+            </div>
+            <div class="four columns icono icono2">
+              <p>
+                Mantente actualizado <br />
+                Las mejores marcas a tu alcance.
+              </p>
+            </div>
+            <div class="four columns icono icono3">
+              <p>
+                Pasion por el servicio <br />
+                Te asesoramos en tu compra.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contenedor Articulos -->
+      <div id="lista-articulos" class="container">
+        <h1 id="encabezado" class="encabezado">Las Mejores Motos Clasicas</h1>
+        <!-- Error al seleccionar articulo -->
+        <div id="error_buscador">
+          <img src="./assets/img/error/Error.png" alt="imagen error 404" />
+        </div>
+        <!-- Contenedor card articulos -->
         <div class="row">
-          <div class="six columns">
-            <div class="contenido-purch">
-              <h2>Venta de Motos Clasicas</h2>
-              <p>Precios Insuperables</p>
-              <form action="#" id="busqueda" method="post" class="formulario">
-                <select id="buscador">
-                  <option value="">Buscar Articulo ...</option>
-                  <option value="Harley Davidson">Harley Davidson</option>
-                  <option value="Junak">Junak</option>
-                  <option value="Royal Enfield">Royal Enfield</option>
-                  <option value="Vespa">Vespa</option>
-                  <option value="Triumph">Triumph</option>
-                  <option value="Ducati">Ducati</option>
-                  <option value="Bmw">Bmw</option>
-                  <option value="Honda">Honda</option>
-                </select>
-              </form>
+          <div class="four columns first">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto3 .jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Softail Custom Fxstc</h4>
+                <p>Harley Davidson</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $75.000.000 <span class="u-pull-right">$70.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="3"
+                  >Agregar Al Carrito</a
+                >
+              </div>
             </div>
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto3.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Iron 883 Negra 2018</h4>
+                <p>Harley Davidson</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $65.900.000<span class="u-pull-right">$55.900.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="4"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto4.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>V Rod Aniversario</h4>
+                <p>Harley Davidson</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $75.500.000<span class="u-pull-right">$65.500.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="5"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto5.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>JUNAK 121 125cc</h4>
+                <p>Junak</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $55.555.000 <span class="u-pull-right">$50.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="6"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto6.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Cross Country</h4>
+                <p>Harley Davidson</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $90.000.000 <span class="u-pull-right">$86.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="7"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto7.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Clasic 350 2019</h4>
+                <p>Royal Enfield</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $15.500.000 <span class="u-pull-right">$10.500.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="8"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto8.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Piaggio Vespa 150 Italiana</h4>
+                <p>Vespa</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $6.500.000 <span class="u-pull-right">$5.500.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="9"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto9.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Street Glide</h4>
+                <p>Harley Davidson</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $140.000.000 <span class="u-pull-right">$137.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="10"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto10.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Sporster -883</h4>
+                <p>Harley Davidson</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $60.000.000 <span class="u-pull-right">$56.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="11"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto11.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Tiger 800xr 2016</h4>
+                <p>Triumph</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $54.000.000 <span class="u-pull-right">$44.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="12"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto12.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Scrambler 800 Dar</h4>
+                <p>Ducati</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $50.500.000 <span class="u-pull-right">$43.500.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="13"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto13.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Bmw R18</h4>
+                <p>Bmw</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $120.000.000 <span class="u-pull-right">$112.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="14"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto14.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Classic 350</h4>
+                <p>Royal Enfield</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $15.980.000 <span class="u-pull-right">$10.980.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="15"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto15.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Classic 350</h4>
+                <p>Royal Enfield</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $15.300.000 <span class="u-pull-right">$12.300.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="16"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
+          </div>
+          <div class="four columns">
+            <div class="card">
+              <img
+                src="./assets/img/productos/moto16.jpg"
+                class="imagenMoto u-full-width"
+              />
+              <div class="info-card">
+                <h4>Cb 750 - 1981</h4>
+                <p>Honda</p>
+                <img src="./assets/img/iconos/estrellas.png" />
+                <p class="precio">
+                  $30.000.000<span class="u-pull-right">$26.000.000</span>
+                </p>
+                <a
+                  href="#"
+                  class="u-full-width button input agregar-carrito"
+                  data-id="17"
+                  >Agregar Al Carrito</a
+                >
+              </div>
+            </div>
+            <!--.card-->
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="barra">
-      <div class="container">
-        <div class="row">
-          <div class="four columns icono icono1">
-            <p>
-              Mas de 50 referencias <br />
-              En Motos clasicas y customizadas
-            </p>
-          </div>
-          <div class="four columns icono icono2">
-            <p>
-              Mantente actualizado <br />
-              Las mejores marcas a tu alcance.
-            </p>
-          </div>
-          <div class="four columns icono icono3">
-            <p>
-              Pasion por el servicio <br />
-              Te asesoramos en tu compra.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="lista-articulos" class="container">
-      <h1 id="encabezado" class="encabezado">Las Mejores Motos Clasicas</h1>
-      <div id="error_buscador">
-        <img src="./assets/img/error/Error404.png" alt="imagen error 404" />
-      </div>
-
-      <div class="row">
-        <div class="four columns first">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto3 .jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Softail Custom Fxstc</h4>
-              <p>Harley Davidson</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $75.000.000 <span class="u-pull-right">$70.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="3"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto3.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Iron 883 Negra 2018</h4>
-              <p>Harley Davidson</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $65.900.000<span class="u-pull-right">$55.900.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="4"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto4.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>V Rod Aniversario</h4>
-              <p>Harley Davidson</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $75.500.000<span class="u-pull-right">$65.500.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="5"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto5.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>JUNAK 121 125cc</h4>
-              <p>Junak</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $55.555.000 <span class="u-pull-right">$50.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="6"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto6.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Cross Country</h4>
-              <p>Harley Davidson</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $90.000.000 <span class="u-pull-right">$86.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="7"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto7.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Clasic 350 2019</h4>
-              <p>Royal Enfield</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $15.500.000 <span class="u-pull-right">$10.500.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="8"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto8.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Piaggio Vespa 150 Italiana</h4>
-              <p>Vespa</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $6.500.000 <span class="u-pull-right">$5.500.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="9"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto9.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Street Glide</h4>
-              <p>Harley Davidson</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $140.000.000 <span class="u-pull-right">$137.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="10"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto10.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Sporster -883</h4>
-              <p>Harley Davidson</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $60.000.000 <span class="u-pull-right">$56.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="11"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto11.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Tiger 800xr 2016</h4>
-              <p>Triumph</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $54.000.000 <span class="u-pull-right">$44.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="12"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto12.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Scrambler 800 Dar</h4>
-              <p>Ducati</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $50.500.000 <span class="u-pull-right">$43.500.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="13"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto13.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Bmw R18</h4>
-              <p>Bmw</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $120.000.000 <span class="u-pull-right">$112.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="14"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto14.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Classic 350</h4>
-              <p>Royal Enfield</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $15.980.000 <span class="u-pull-right">$10.980.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="15"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto15.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Classic 350</h4>
-              <p>Royal Enfield</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $15.300.000 <span class="u-pull-right">$12.300.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="16"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-        <div class="four columns">
-          <div class="card">
-            <img
-              src="./assets/img/productos/moto16.jpg"
-              class="imagenMoto u-full-width"
-            />
-            <div class="info-card">
-              <h4>Cb 750 - 1981</h4>
-              <p>Honda</p>
-              <img src="./assets/img/iconos/estrellas.png" />
-              <p class="precio">
-                $30.000.000<span class="u-pull-right">$26.000.000</span>
-              </p>
-              <a
-                href="#"
-                class="u-full-width button input agregar-carrito"
-                data-id="17"
-                >Agregar Al Carrito</a
-              >
-            </div>
-          </div>
-          <!--.card-->
-        </div>
-      </div>
-    </div>
+    </main>
 
     <footer id="footer" class="footer">
       <div class="container">

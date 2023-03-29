@@ -931,14 +931,6 @@ h4 {
   font-weight: 700;
 }
 
-.logoc {
-  max-height: 2rem;
-}
-
-#logo {
-  max-height: 10rem;
-}
-
 header {
   position: fixed;
   z-index: 100;
@@ -948,11 +940,14 @@ header {
   background-color: #000000;
 }
 
-@media (min-width: 750px) {
-  header {
-    text-align: left;
-  }
+.logoc {
+  max-height: 2rem;
 }
+
+#logo {
+  max-height: 10rem;
+}
+
 ul {
   list-style: none;
 }
@@ -980,16 +975,6 @@ ul {
   font-weight: 600;
 }
 
-@media (max-width: 450px) {
-  .submenu {
-    margin-top: 5rem;
-  }
-}
-@media (max-width: 750px) {
-  .submenu i {
-    margin-top: 35px;
-  }
-}
 .submenu #carrito {
   display: none;
 }
@@ -1096,27 +1081,6 @@ ul {
   color: #BA181b;
 }
 
-.contenido-purch form #buscar-btn {
-  position: absolute;
-  border: none;
-  font-size: 3rem;
-}
-
-@media (min-width: 425px) {
-  .contenido-purch form #buscar-btn {
-    margin: 0.8rem -10rem 0;
-  }
-}
-@media (min-width: 768px) {
-  .contenido-purch form #buscar-btn {
-    margin: -3.5rem 25rem 0;
-  }
-}
-@media (min-width: 1400px) {
-  .contenido-purch form #buscar-btn {
-    margin: 0.8rem -8rem 0;
-  }
-}
 #buscador {
   all: unset;
   width: 30rem;
@@ -1148,11 +1112,6 @@ ul {
   text-align: center;
 }
 
-@media (min-width: 750px) {
-  .icono {
-    margin-bottom: 0;
-  }
-}
 .icono1 {
   background-image: url(/assets/img/logo/Icono_logo_negro\ 1.png);
   background-size: 50px;
@@ -1179,24 +1138,6 @@ ul {
   display: none;
 }
 
-@media (min-width: 375px) {
-  #error_buscador img {
-    width: 30rem;
-    margin: 5rem 0;
-  }
-}
-@media (min-width: 768px) {
-  #error_buscador img {
-    width: 50rem;
-    margin: 5rem 0 3rem 3rem;
-  }
-}
-@media (min-width: 1400px) {
-  #error_buscador img {
-    width: 60rem;
-    margin: 5rem 0 3rem 15rem;
-  }
-}
 .encabezado {
   color: #F5F3F4;
   font-weight: 600;
@@ -1216,39 +1157,6 @@ ul {
   box-shadow: 1px 1px 5px #BA181b;
 }
 
-@media (min-width: 768px) {
-  #lista-articulos .row {
-    width: 90rem;
-    align-items: center;
-    margin-left: -3rem;
-  }
-  #lista-articulos .row .first {
-    margin-left: 5rem;
-  }
-  .barra .four {
-    width: 25rem;
-    align-items: center;
-  }
-  .icono3 {
-    margin: 5rem 15rem;
-  }
-}
-@media (min-width: 1400px) {
-  #lista-articulos .row .first {
-    margin-left: 2rem;
-  }
-  .barra .four {
-    width: 30rem;
-  }
-  .icono3 {
-    margin: 0;
-  }
-}
-@media (min-width: 550px) {
-  .card {
-    text-align: left;
-  }
-}
 .imagenMoto {
   height: 200px;
   padding: 15px;
@@ -1315,6 +1223,10 @@ ul {
   text-decoration: underline;
 }
 
+.footer .container {
+  margin-right: 1rem;
+}
+
 /* Autor */
 .autor {
   text-align: center;
@@ -1325,6 +1237,101 @@ ul {
 .autor a {
   text-decoration: none;
   margin: 5rem;
+}
+
+/* Media Queries Header 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 375px) {
+  .submenu {
+    margin-top: 9rem;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    text-align: left;
+    height: 5rem;
+  }
+  .submenu i {
+    margin-top: 35px;
+  }
+  .submenu {
+    margin-top: -2.8rem;
+  }
+}
+/* Media Queries Main 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 375px) {
+  #error_buscador img {
+    width: 30rem;
+    margin: 5rem 0;
+  }
+  .card {
+    text-align: left;
+    width: 30rem;
+  }
+  #lista-articulos .row {
+    margin-left: 1.8rem;
+  }
+  #lista-articulos .row .first {
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .icono {
+    margin-bottom: 0;
+  }
+  #error_buscador img {
+    width: 50rem;
+    margin: 5rem 0 3rem 3rem;
+  }
+  #lista-articulos .row {
+    width: 90rem;
+    align-items: center;
+    margin-left: -6rem;
+  }
+  #lista-articulos .row .first {
+    margin-left: 5rem;
+  }
+  .barra .four {
+    width: 25rem;
+    align-items: center;
+  }
+  .icono3 {
+    margin: 5rem 15rem;
+  }
+}
+@media (min-width: 1400px) {
+  #error_buscador img {
+    width: 60rem;
+    margin: 5rem 0 3rem 15rem;
+  }
+  #lista-articulos .row {
+    margin-left: -5rem;
+  }
+  #lista-articulos .row .first {
+    margin-left: 2rem;
+  }
+  .barra .four {
+    width: 30rem;
+  }
+  .icono3 {
+    margin: 0;
+  }
+  .card {
+    width: auto;
+  }
+}
+/* Media Queries Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 768px) {
+  .footer .container {
+    margin-right: -2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .footer .container {
+    margin-right: 5rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
