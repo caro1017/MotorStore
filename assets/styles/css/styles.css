@@ -1061,7 +1061,7 @@ ul {
 }
 
 .contenido-purch {
-  margin-top: 200px;
+  margin-top: 250px;
   color: #F5F3F4;
 }
 
@@ -1105,9 +1105,6 @@ ul {
 @media (min-width: 425px) {
   .contenido-purch form #buscar-btn {
     margin: 0.8rem -10rem 0;
-  }
-  .contenido-purch {
-    margin-top: 300px;
   }
 }
 @media (min-width: 768px) {
