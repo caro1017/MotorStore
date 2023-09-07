@@ -31,7 +31,7 @@ Este proyecto cumple los siqueintes requerimientos:
 
 ## Despliegue 📦
 
-* [Figma](https://www.figma.com/file/eZlLdXPgoEkYab1jBJlsUf/MotorStore?t=jhNWKdaZDSwuyjhp-0) - Prototipo visual
+* [Figma]([https://www.figma.com/file/eZlLdXPgoEkYab1jBJlsUf/MotorStore?t=jhNWKdaZDSwuyjhp-0](https://www.figma.com/proto/eZlLdXPgoEkYab1jBJlsUf/MotorStore?type=design&node-id=2-2&t=JMKoP5yYXUQcsvFa-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2)) - Prototipo visual
 * [MotorStore](https://motor-store.netlify.app/) - Pagina web
 
 ## Prototipado ⌨️
